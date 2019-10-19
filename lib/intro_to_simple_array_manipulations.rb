@@ -5,3 +5,8 @@ end
 def using_unshift(array, new_neighborhood)
   array.unshift(new_neighborhood)
 end
+
+def using_pop(array, element)
+  aray.pop(element)
+end
+

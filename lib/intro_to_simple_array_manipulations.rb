@@ -26,10 +26,8 @@ def shift_with_args(array)
   return shift_first_two
 end
 
-def using_concat
-  array1 = []
-  array2 = []
-  return total_array = using_concat(array1, array2)
+def using_concat(array1, array2)
+  array1.concat(array2)
 end
 
 def using_insert(array, element)

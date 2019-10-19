@@ -21,7 +21,7 @@ def using_shift(array)
   return shift_first
 end
 
-def shift_with_args
+def shift_with_args(array)
   shift_first_two = array.shift(2)
   return shift_first_two
 end
